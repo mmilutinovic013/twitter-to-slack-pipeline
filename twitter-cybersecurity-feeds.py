@@ -1,12 +1,13 @@
 import tweepy
 import requests
 import json
+import config
 
 # Twitter API credentials
-TWITTER_API_KEY = 'your_twitter_api_key'
-TWITTER_API_SECRET = 'your_twitter_api_secret'
-TWITTER_ACCESS_TOKEN = 'your_twitter_access_token'
-TWITTER_ACCESS_SECRET = 'your_twitter_access_secret'
+TWITTER_API_KEY = config.api_key
+TWITTER_API_SECRET = config.api_secret
+TWITTER_ACCESS_TOKEN = config.access_token
+TWITTER_ACCESS_SECRET = config.access_secret
 
 # Slack webhook URL
 SLACK_WEBHOOK_URL = 'your_slack_webhook_url'
